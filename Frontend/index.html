@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HeritageSphere</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- Leaflet CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            HeritageSphere
+        </div>
+
+        <nav>
+             <a href="#home">Home</a>
+             <a href="#heritage">Heritage</a>
+             <a href="#analytics">Analytics</a>
+             <a href="#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- Hero -->
+
+        <section class="hero" id="home">
+
+            <h1>
+                Explore India's Heritage
+            </h1>
+
+            <p>
+                An integrated platform for discovering,
+                preserving and analyzing heritage information.
+            </p>
+
+            <input
+                type="text"
+                id="searchBox"
+                placeholder="Search monuments..."
+            >
+
+        </section>
+
+
+        <!-- Monuments -->
+
+        <section class="heritage-section" id="heritage">
+
+            <h2>
+                Heritage Monuments
+            </h2>
+
+            <div id="monumentContainer">
+                <!-- Monuments will appear here -->
+            </div>
+
+            <div id="heritageMap"></div>
+
+        </section>
+
+
+        <!-- Artifacts -->
+
+        <section class="heritage-section" id="analytics">
+
+            <h2>
+                Heritage Artifacts
+            </h2>
+
+            <div id="artifactContainer">
+                <!-- Artifacts will appear here -->
+            </div>
+
+        </section>
+
+
+        <!-- Analytics -->
+
+        <section class="heritage-section">
+
+            <h2>
+                Heritage Analytics
+            </h2>
+
+            <div id="analyticsContainer">
+                <!-- Analytics will appear here -->
+            </div>
+
+        </section>
+
+
+        <!-- Relationships -->
+
+        <section class="heritage-section">
+
+            <h2>
+                Heritage Relationships
+            </h2>
+
+            <div id="relationshipContainer">
+                <!-- Relationships will appear here -->
+            </div>
+
+        </section>
+    <section class="heritage-section" id="about">
+
+    <h2>About HeritageSphere</h2>
+
+    <div class="about-card">
+
+        <p>
+            HeritageSphere is a digital heritage intelligence platform
+            designed to organize, preserve and explore cultural heritage
+            information.
+        </p>
+
+        <p>
+            The platform integrates structured, spatial, semi-structured,
+            XML and graph-based heritage data to support research and
+            historical analysis.
+        </p>
+
+        <p>
+            It combines PostgreSQL with PostGIS, MongoDB, Neo4j,
+            XML technologies and a data warehouse to provide an
+            integrated heritage information system.
+        </p>
+
+    </div>
+
+</section>
+    </main>
+
+
+    <!-- Leaflet JavaScript -->
+
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+
+
+    <!-- Our JavaScript -->
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>

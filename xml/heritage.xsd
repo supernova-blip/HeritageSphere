@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="heritageCollection">
+
+        <xs:complexType>
+
+            <xs:sequence>
+
+                <xs:element name="monument" maxOccurs="unbounded">
+
+                    <xs:complexType>
+
+                        <xs:sequence>
+
+                            <xs:element name="name" type="xs:string"/>
+
+                            <xs:element name="type" type="xs:string"/>
+
+                            <xs:element name="historicalPeriod" type="xs:string"/>
+
+                            <xs:element name="yearBuilt" type="xs:integer"/>
+
+                            <xs:element name="location">
+
+                                <xs:complexType>
+
+                                    <xs:sequence>
+
+                                        <xs:element name="city" type="xs:string"/>
+
+                                        <xs:element name="state" type="xs:string"/>
+
+                                        <xs:element name="country" type="xs:string"/>
+
+                                    </xs:sequence>
+
+                                </xs:complexType>
+
+                            </xs:element>
+
+                            <xs:element name="historicalEvent">
+
+                                <xs:complexType>
+
+                                    <xs:sequence>
+
+                                        <xs:element name="name" type="xs:string"/>
+
+                                        <xs:element name="year" type="xs:integer"/>
+
+                                    </xs:sequence>
+
+                                </xs:complexType>
+
+                            </xs:element>
+
+                        </xs:sequence>
+
+                        <xs:attribute
+                            name="id"
+                            type="xs:string"
+                            use="required"/>
+
+                    </xs:complexType>
+
+                </xs:element>
+
+            </xs:sequence>
+
+        </xs:complexType>
+
+    </xs:element>
+
+</xs:schema>

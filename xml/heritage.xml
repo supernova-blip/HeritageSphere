@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<heritageCollection>
+
+    <monument id="M001">
+
+        <name>Brihadisvara Temple</name>
+
+        <type>Temple</type>
+
+        <historicalPeriod>Chola Period</historicalPeriod>
+
+        <yearBuilt>1010</yearBuilt>
+
+        <location>
+            <city>Thanjavur</city>
+            <state>Tamil Nadu</state>
+            <country>India</country>
+        </location>
+
+        <historicalEvent>
+            <name>Temple Construction Completed</name>
+            <year>1010</year>
+        </historicalEvent>
+
+    </monument>
+
+
+    <monument id="M002">
+
+        <name>Shore Temple</name>
+
+        <type>Temple</type>
+
+        <historicalPeriod>Pallava Period</historicalPeriod>
+
+        <yearBuilt>725</yearBuilt>
+
+        <location>
+            <city>Mahabalipuram</city>
+            <state>Tamil Nadu</state>
+            <country>India</country>
+        </location>
+
+        <historicalEvent>
+            <name>Shore Temple Construction</name>
+            <year>725</year>
+        </historicalEvent>
+
+    </monument>
+
+</heritageCollection>

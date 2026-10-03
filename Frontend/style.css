@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f1e8;
+    color: #2f2a24;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #2f2a24;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #d6a85f;
+}
+
+/* Hero */
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #e8dfcf;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #655d54;
+    margin-bottom: 30px;
+}
+
+#searchBox {
+    width: 500px;
+    max-width: 90%;
+    padding: 15px 20px;
+    border: 1px solid #c8bda9;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+#searchBox:focus {
+    border-color: #9b7239;
+}
+
+/* Heritage section */
+
+.heritage-section {
+    padding: 50px 60px;
+}
+
+.heritage-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+#monumentContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Monument cards */
+
+.monument-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd2c0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.monument-card h3 {
+    margin-bottom: 15px;
+    color: #4a3928;
+}
+
+.monument-card p {
+    margin: 8px 0;
+    color: #665f57;
+}
+
+.monument-card strong {
+    color: #352d26;
+}
+#analyticsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 900px;
+    margin: auto;
+}
+
+#analyticsContainer .monument-card {
+    text-align: center;
+}
+
+#analyticsContainer .monument-card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+#analyticsContainer .monument-card p {
+    font-size: 16px;
+}
+#artifactContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+#artifactContainer .monument-card {
+    margin: 0;
+}
+
+#relationshipContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.relationship-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd2c0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.relationship-card h3 {
+    margin-bottom: 15px;
+    color: #4a3928;
+}
+
+.relationship-card p {
+    line-height: 1.6;
+    color: #665f57;
+}
+
+.relationship-card span {
+    color: #9b7239;
+    font-weight: bold;
+}
+
+.relationship-card small {
+    display: block;
+    margin-top: 10px;
+    color: #888;
+}
+#heritageMap {
+    height: 450px;
+    max-width: 1100px;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    border: 1px solid #ddd2c0;
+    overflow: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+.about-card {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ddd2c0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.about-card p {
+    margin-bottom: 18px;
+    line-height: 1.7;
+    color: #665f57;
+}
+
+.about-card p:last-child {
+    margin-bottom: 0;
+}
